@@ -30,8 +30,10 @@ public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
+
     @NotEmpty(message="name should not be null")
     private  String name;
+    @NotNull
     private  Long age;
     private String location;
     @Email(message = "please enter valid email address")

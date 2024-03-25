@@ -1,10 +1,10 @@
-package in.vijay.Springbootjpa;
+package com.vijay.inventoryservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringbootjpaApplicationTests {
+class InventoryServiceApplicationTests {
 
 	@Test
 	void contextLoads() {
